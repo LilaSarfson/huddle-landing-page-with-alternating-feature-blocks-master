@@ -210,7 +210,11 @@ footer{
     
 }
 .icono-item{
-    
+    width: 42px;
+    height: 42px;
+    border: 2px white solid;
+    border-radius: 100%;
+    padding: 5px;
 }
 
 
