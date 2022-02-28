@@ -107,7 +107,7 @@ main {
     font-family: "Open Sans";
     text-align: center;
     
-    /* margin: 1.5rem; */
+    margin: 1.5rem;
     margin-bottom: 3rem;
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -210,16 +210,17 @@ footer{
     
 }
 .icono-item{
-    width: 42px;
-    height: 42px;
+    width: 46px;
+    height: 46px;
     border: 2px white solid;
     border-radius: 100%;
-    padding: 5px;
+    padding: 11px;
 }
-
-
-
-/* .logo2{
-filter: brightness(107%) contrast(111%);
-} */
-
+.icono-item img{
+    width: 20px;
+}
+.copy{
+    margin-top: 2rem;
+    font-size: .9rem;
+    margin-bottom: 4rem;
+}
