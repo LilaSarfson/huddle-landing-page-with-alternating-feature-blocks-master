@@ -1,0 +1,125 @@
+@media (min-width: 400px) {
+    /* HEADER */
+    header {
+        padding-top: 3rem;
+        padding-right: 5rem;
+        padding-left: 5rem;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .button-try-it {
+        padding: .7rem 3rem;
+    }
+
+    .introduction {
+        flex-direction: row;
+        gap: 4rem;
+        text-align: left;
+    }
+
+    .introduction-section1 {
+        flex-basis: 45%;
+    }
+
+    .introduction-title {
+        font-size: 3rem;
+    }
+
+    .introduction-button {
+        width: 35%;
+        padding: 1.1rem .8rem;
+        margin-top: 2rem;
+    }
+
+    .introduction-section2 {
+        flex-basis: 55%;
+    }
+
+    /* MAIN */
+    main {
+        margin: 10rem 5rem;
+    }
+    .card {
+        flex-direction: row-reverse;
+        text-align: left;
+    }
+    .card-content {
+        padding: 5% 10%;
+    }
+
+    /* FOOTER */
+    .footer-ready {
+        width: 50vw;
+        margin-left: 25vw;
+        top: -150px;
+        padding: 3rem;
+    }
+
+    .ready-title {
+        font-size: 2.5rem;
+    }
+
+    .ready-boton {
+        padding: 1.4rem;
+        width: 50%;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    .footer-contact {
+        flex-direction: row;
+        padding: 5rem;
+        justify-content: space-between;
+    }
+    .footer-contact > *{
+        margin: 0;
+        flex-basis: 30%;
+    }
+
+    .footer-list {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-auto-flow: column;
+        align-self: flex-start;
+        margin-top: 71px;
+    }
+
+    .footer-iconos {
+        position: relative;
+        text-align: left;
+    }
+
+    .footer-list li{
+        margin-bottom: 1rem;
+    }
+
+    .iconos {
+        justify-content: flex-start;
+        margin-top: 71px;
+    }
+
+    /* .icono-item {
+        padding: 10px;
+    }
+
+    .icono-item img {
+        width: 16px;
+        
+    } */
+
+    .copy {
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .icono-item {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
